@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Cheatsheet</title>
+
+    <!--Importing fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <!--Importing Favicon-->
+    <link rel="icon" href="./images.jfif" />
+
+    <!--Importing CSS File-->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>CSS Selectors Reference</h1>
+      </header>
+      <br>
+      <main>
+
+        <section>
+          <h2>Selectors</h2>
+          <br>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Example</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">p {<br>
+                        &nbsp;&nbsp;&nbsp;color: green;<br>
+                      }</span>
+                    </td>
+                    <td>Type Selector</td>
+                    <td>The type selector selects &lt;p&gt; element and styles according to the declarations.</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="code">* {<br>&nbsp;&nbsp;&nbsp;font-family: Arial;<br>}</span>
+                    </td>
+                    <td>Universal Selector</td>
+                    <td>The universal selector selects all elements of any type.</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="code">.brand {<br>&nbsp;&nbsp;&nbsp;<br>}</span>
+                    </td>
+                    <td>Class Selector</td>
+                    <td>The class selector selects the element which has class attribute specified with a name.</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="code">#main-heading {<br>&nbsp;&nbsp;&nbsp;<br>}</span>
+                    </td>
+                    <td>ID Selector</td>
+                    <td>The id selector selects the specific HTML element which has id attribute with a unique name in order to provide uniques styles to it.</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="code">[href] {<br>&nbsp;&nbsp;&nbsp;color: orange;<br>}</span>
+                    </td>
+                    <td>Attribute Selector</td>
+                    <td>The attribute selector selects the element which contains specific attribute in it.</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="code">p:hover {<br>&nbsp;&nbsp;&nbsp;background-color: lime;<br>}</span>
+                    </td>
+                    <td>Pseudo-class</td>
+                    <td>A Pseudo-class can be attached to any selector and states of it changes upon user interaction/behaviour accordingly.</td>
+                </tr>
+            </tbody>
+          </table>
+        </section>
+
+      </main>
+
+      <footer>
+        <h3>Made by Ganesh Falak</h3>
+      </footer>
+    </div>
+
+  </body>
+</html>
