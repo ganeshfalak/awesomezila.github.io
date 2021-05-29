@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+section {
+    border: 2px solid gray;
+    padding: 30px 10px;
+    margin: 10px 0;
+}
+
+h1, h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    padding: 30px 0;
+}
+
+h3 {
+    text-decoration: underline;
+    color: rgb(57, 57, 57);
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Nav Bar */
+.nav-bar {
+    width: 100%;
+    background-color: rgb(0, 85, 255);
+}
+
+.nav-list {
+    padding: 20px 0;
+}
+
+.nav-list li {
+    display: inline;
+    width: 20%;
+}
+
+.nav-bar a {
+    padding: 20px 15px;
+    text-decoration: none;
+    color: white;
+    width: 33%;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(75, 135, 255);
+    transition: background-color .3s;
+}
+
+
+/* Colors Tab */
+.all-colors div {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin-top: 40px;
+    max-height: 100px;
+    padding-bottom: 25px;
+}
+
+.colors {
+    font-family: KoHo, sans-serif;
+}
+
+.beige {
+    background-color: #efd9ca;
+}
+
+.beige:hover {
+    background-color: #ffede0;
+    transition: background-color .2s;
+}
+
+.cool-blue {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+.cool-blue:hover {
+    background-color: #4a78e2;
+    transition: background-color .2s;
+}
+
+
+.mint-green {
+    background-color: #4fe0b0;
+}
+
+.mint-green:hover {
+    background-color: #75f0c7;
+    transition: background-color .2s;
+}
+
+.pink {
+    background-color: #d957d9;
+}
+
+.pink:hover {
+    background-color: #dc75dc;
+    transition: background-color .2s;
+}
+
+p {
+    margin-top: 20px;
+}
+
+/* Fonts Tab */
+.all-fonts div {
+    width: 45%;
+    display: inline-block;
+    margin-top: 40px;    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font1 {
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+.font2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.font3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Text-Style Section */
+
+.text-styles-section {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.heading-specs, .subheading-specs, .p-specs {
+    position: relative;
+    left: 45px;
+}
+
+.text-style-heading {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans';
+}
+
+.text-style-subheading {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Poppins;
+}
+
+.text-style-ptext {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Poppins;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+/* Lovely Buttons */
+.btns {
+    margin-top: 30px;
+}
+
+
+.btns > button {
+    height: 50px;
+    width: 125px;
+    border-radius: 4px;
+    font-size: 16px;
+    display: inline;
+    margin-bottom: 20px;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-1 {
+    background-color: #ee00ff;
+    color: white;
+}
+
+.btn-1:hover {
+    background-color: #f566ff;
+    cursor: pointer;
+}
+
+.btn-2 {
+    background-color: #ff7300;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: #0061a7;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-3 {
+    background-color: #ff009d;
+    color: white;
+    transition: background-color .3s ease-out;
+}
+
+.btn-3:hover {
+    background-color: #0095ff;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-4 {
+    background-color: #00ff73;
+    color: #1a906a;
+    transition: background-color .3s ease-out;
+}
+
+.btn-4:hover {
+    background-color: #1a906a;
+    color: #00ff73;
+    height: 55px;
+    width: 135px;
+    transition: height 1s,width 1s;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn-n {
+    background-color: #ff2020;
+    box-shadow: inset 0 0 0 0 #ffff00;
+    transition: ease-out .3s;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+.btn-n:hover {
+    box-shadow: inset 125px 0 0 0 #ffff00;
+    cursor: pointer;
+    color: #000000;
+}
