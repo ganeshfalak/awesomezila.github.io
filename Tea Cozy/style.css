@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    padding: 0 10px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+}
+
+.spacer {
+    padding-top: 70px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: seashell;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin: 10px 0;
+}
+
+/* Mission */
+.mission {
+    background-image: url(./img/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.mission-text {
+    background-color: black;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.mission-text h2 {
+    margin-bottom: 15px;
+}
+
+/* Featured Tea */
+.featured-tea {
+    width: 1000px;
+    margin: 80px auto;
+}
+
+.featured-tea  h2, .featured-tea h4 {
+    margin-bottom: 15px;
+}
+
+.featured-tea figcaption {
+    margin-top: 10px;
+}
+
+.featured-teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bolder;
+}
+
+.featured-tea img {
+    height: 200px;
+    width: 300px;
+}
+
+/* Locations */
+.locations {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(./img/img-locations-background.jpg);
+}
+
+.locations h2 {
+    padding-top: 70px;
+    margin-bottom: 15px;
+}
+
+.location-containers {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.location {
+    background-color: black;
+    flex-basis: 300px;
+    opacity: 1;
+}
+
+.location h3, .location p {
+    padding: 20px 0;
+}
+
+/* footer */
+.footer  {
+    height: 200px;
+    margin: 10px auto 0 auto;
+}
+
+footer h2, footer h5 {
+    margin-bottom: 30px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 30px;
+}
